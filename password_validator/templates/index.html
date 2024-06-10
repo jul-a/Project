@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <button class="menu-button" id="password-validator-button">Password Validator</button>
+        <button class="menu-button" id="register-button">Register</button>
+    </div>
+    <div class="content" id="password-validator-content" style="{% if show_register %}display: none;{% endif %}">
+        <h1 class="header">Password Validator</h1>
+        <form id="password-form" onsubmit="return false;">
+            <label for="password">Enter Password:</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password">
+                <input type="checkbox" id="toggle-password" class="toggle-password"> 
+            </div>
+        </form>
+        <div id="messages"></div>
+    </div>
+
+    <div class="content" id="register-content" style="{% if not show_register %}display: none;{% endif %}">
+        <h1 class="header">Sign up:</h1>
+        <form method="POST" action="/">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <div id="email-messages">
+                {% if email_valid is not none %}
+                <p class="message-invalid">{{ 'Invalid email' if not email_valid else '' }}</p>
+                {% endif %}
+            </div>
+            <label for="register-username">Username:</label>
+            <input type="text" id="register-username" name="username" required>
+            <div id="username-messages">
+                {% if username_valid is not none %}
+                <p class="message-invalid">{{ 'Invalid username' if not username_valid else '' }}</p>
+                {% endif %}
+            </div>
+            <label for="register-password">Password:</label>
+            <div class="password-container">
+                <input type="password" id="register-password" name="password" required>
+            </div>
+            <div id="password-messages">
+                {% if password_valid is not none %}
+                <p class="message-invalid">{{ 'Invalid password' if not password_valid else '' }}</p>
+                {% endif %}
+            </div>
+            <button type="submit" name="register">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
