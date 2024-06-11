@@ -1,0 +1,26 @@
+Kontakt: 123-456-789, numer biura: 987-654-321, oraz domowy: 564-738-291.
+Dodatkowe numery: 231-546-879, 324-657-890, 465-768-901.
+Specjalne oferty: 576-879-012, 687-980-123, 798-091-234.
+Awaryjny kontakt: 809-102-345, 910-213-456, 021-324-567.
+Moje numery: 132-465-798, 243-576-809, 354-687-910.
+Numer fax: 465-798-021, numer główny: 576-809-132.
+Numer pomocniczy: 687-910-243, numer alternatywny: 798-021-354.
+Dział sprzedaży: 809-132-465, dział marketingu: 910-243-576.
+Zamówienia: 102-354-687, zwroty: 213-465-798, reklamacje: 324-576-809.
+Rezerwacje: 435-687-910, potwierdzenia: 546-798-021, odwołania: 657-809-132.
+Numer nadzoru: 768-910-243, numer alarmowy: 879-021-354.
+Numery testowe: 102-354-687, 213-465-798, 324-576-809.
+Numery zapasowe: 435-687-910, 546-798-021, 657-809-132.
+Numery do kontaktu: 768-910-243, 879-021-354, 910-132-465.
+Numery serwisowe: 021-243-576, 132-354-687, 243-465-798.
+Numer do kierownika: 354-576-809, numer do asystenta: 465-687-910.
+Numer recepcji: 576-798-021, numer biura: 687-809-132.
+Dział IT: 798-910-243, dział HR: 809-021-354.
+Numer księgowości: 910-132-465, numer magazynu: 021-243-576.
+Numer produkcji: 132-354-687, numer kontroli jakości: 243-465-798.
+Numery wewnętrzne: 354-576-809, 465-687-910, 576-798-021.
+Numer zewnętrzny: 687-809-132, numer centralny: 798-910-243.
+Kontakt awaryjny: 809-021-354, numer główny: 910-132-465.
+Dział obsługi klienta: 021-243-576, numer reklamacji: 132-354-687.
+Numer zastępczy: 243-465-798, numer zapasowy: 354-576-809.
+Numery kontaktowe: 465-687-910, 576-798-021, 687-809-132.
