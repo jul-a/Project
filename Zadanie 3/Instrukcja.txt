@@ -1,0 +1,4 @@
+Napisz skrypt Pythona, który:
+1) Wczyta zawartość pliku data.txt.
+2) Znajdzie wszystkie numery telefonów w formacie XXX-XXX-XXX.
+3) Wyświetli znalezione dopasowania.
